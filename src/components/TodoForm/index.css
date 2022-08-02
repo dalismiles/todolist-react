@@ -1,0 +1,19 @@
+.TodoForm {
+  padding: 20px;
+}
+
+.TodoForm__li {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.TodoForm__li--checkbox:checked {
+  box-shadow: 0 0 0 3px #5f9391;
+}
+
+.TodoForm__li--postDate {
+  font-size: 0.8rem;
+  font-weight: lighter;
+  font-style: italic;
+  color:#5f9391;
+}
